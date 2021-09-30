@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Contacto</title>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Pagina de contacto">
+    <meta name="keywords" content="asesoria asesordeimagen estilo colorimetria vestidor">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<div class="container-fluid px-0">
+		<nav class="navbar navbar-expand-lg navbar-light bgNude">
+  			<a class="navbar-brand" href="index.html">
+  				<img src="media/logo3.png" alt="logo">
+  			</a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+  			<div class="collapse navbar-collapse menu" id="navbarNav">
+			    <ul class="navbar-nav menu navbar-nav ml-auto">
+			      <li class="nav-item">
+			        <a class="nav-link" href="index.html">Home</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="about.html">Sobre mi</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="asesorias.html">Asesorias</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="testimonios.html">Testimonios</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="contacto.html">Contacto</a>
+			      </li>
+			    </ul>
+  			</div>
+		</nav>
+        <div id="formulario" class="d-flex flex-column justify-content-center align-items-center py-5 bgNude">
+			<p class="style typeBold">Contacto:</p>
+			<form method="GET" action="">
+			<label for="nombre">Nombre:</label>
+ 			<input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" />
+			<label for="email">Email:</label>
+			<input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" />
+			<label for="mensaje">Mensaje:</label>
+			<textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+				Enviar
+			</button>
+		</div>
+		<footer id="footer" class="bgDark">
+			Footer de mi sitio
+        </footer>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title" id="exampleModalLabel">Mensaje enviado</h5>
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<div class="modal-body">
+			  Muchas gracias, pronto nos pondremos en contacto
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>	
+</body>
+</html>

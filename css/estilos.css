@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&display=swap");
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+img {
+  width: 150px;
+}
+
+.typeBold {
+  font-weight: 600;
+}
+
+.typeLight {
+  font-weight: 300;
+}
+
+.style {
+  font-size: 20px;
+  padding-bottom: 5px;
+  text-decoration: underline;
+}
+
+.bgDark {
+  background-color: #373737;
+}
+
+.bgNude {
+  background-color: #c7c1b7;
+}
+
+.textDark {
+  color: #373737;
+}
+
+/**Header**/
+.navbar-nav {
+  font-size: 1.5em;
+}
+
+.navbar-nav li {
+  padding: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #373737;
+  font-size: 1em;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #F4F4F4;
+}
+
+.navbar-light .show .navbar-nav .nav-link {
+  color: #F4F4F4;
+}
+
+/**Home**/
+.home {
+  background-image: url(../media/banner6.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+}
+
+.home .banner {
+  height: 100vh;
+  padding-top: 70px;
+}
+
+@media only screen and (min-width: 992px) {
+  .home {
+    background-image: url(../media/banner62x.jpg);
+  }
+}
+
+.centrar {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.centrar .tituloGrande {
+  text-align: center;
+  font-size: 2em;
+}
+
+.centrar .textoHome {
+  text-align: center;
+  font-size: 1em;
+}
+
+@media only screen and (min-width: 992px) {
+  .centrar {
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+  .centrar .tituloGrande {
+    text-align: center;
+    font-size: 3em;
+  }
+  .centrar .textoHome {
+    text-align: center;
+    font-size: 1.5em;
+  }
+}
+
+.card-deck {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/**About**/
+#about {
+  min-height: 700px;
+}
+
+#about .title {
+  font-size: 50px;
+}
+
+#about .foto {
+  background-image: url(../media/perfil_collar.jpg);
+  background-size: cover;
+  background-position: top;
+  min-height: 500px;
+}
+
+/**Asesorias**/
+.estilo {
+  background-image: url(../media/estilo.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.cuerpo {
+  background-image: url(../media/cuerpoc.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.color {
+  background-image: url(../media/colorc.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.asesoria {
+  background-image: url(../media/asesoriac.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.armario {
+  background-image: url(../media/armarioc.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.compras {
+  background-image: url(../media/comprasc.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.rostro {
+  background-image: url(../media/rostroc.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.cap {
+  background-image: url(../media/capacitacionc.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+/**Testimonios**/
+@media (min-width: 992px) {
+  .carousel-item img {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+}
+
+/**Contacto**/
+#formulario {
+  color: #373737;
+}
+
+#formulario form {
+  margin: 0 auto;
+  width: 400px;
+}
+
+#formulario label {
+  display: block;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+#formulario input, #formulario textarea {
+  width: 380px;
+  height: 27px;
+  background: #373737;
+  border: 2px solid #F4F4F4;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 10px;
+  color: #F4F4F4;
+}
+
+#formulario textarea {
+  height: 150px;
+  resize: none;
+}
+
+#submit {
+  width: 85px;
+  height: 35px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/**Footer**/
+#footer {
+  padding: 60px;
+  font-size: 20px;
+  color: #F4F4F4;
+  border-top: 1px solid;
+}
+/*# sourceMappingURL=estilos.css.map */

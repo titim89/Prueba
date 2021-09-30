@@ -1,0 +1,212 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&display=swap');
+
+body{
+	font-family: 'Dosis', sans-serif;
+}
+
+img{
+	width: 150px;
+}
+	
+.typeBold{
+	font-weight: 600;
+}
+.typeLight{
+	font-weight: 300;
+}
+.style{
+	font-size: 20px;
+	padding-bottom: 5px;
+	text-decoration: underline;
+}
+.bgDark{
+	background-color: #373737;
+}
+.bgNude{
+	background-color: #c7c1b7;
+}
+
+.textDark{
+    color: $colorDark;
+}
+
+/**Header**/
+
+.navbar-nav{
+	font-size: 1.5em;
+	li{
+		padding: 10px;
+	}
+}
+.navbar-light .navbar-nav .nav-link {
+    color: $colorDark;
+	font-size: 1em;
+	&:hover{
+		color: $colorNude;
+	}	
+}
+.navbar-light .show .navbar-nav .nav-link{
+	color: $colorNude;
+}
+
+/**Home**/
+
+.home{
+	background-image: url(../media/banner6.jpg);
+	background-size: cover;
+    background-position: top;
+	height: 100vh;
+	.banner{
+		height: 100vh;
+		padding-top: 70px;
+	}
+	@media only screen and (min-width: 992px) {
+		background-image: url(../media/banner62x.jpg);
+	
+	}
+}
+
+.centrar{
+	padding-left: 10px;
+	padding-right: 10px;
+	.tituloGrande{
+		text-align: center;
+		font-size: 2em;    
+	}
+	.textoHome{
+		text-align: center;
+		font-size: 1em;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+    .centrar{
+		padding-left: 180px;
+		padding-right: 180px;
+		.tituloGrande{
+			text-align: center;
+			font-size: 3em;    
+		}
+		.textoHome{
+			text-align: center;
+			font-size: 1.5em;
+		}
+	}
+}
+.card-deck{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/**About**/
+
+#about{
+	min-height: 700px;
+	.title{
+		font-size: 50px;
+	}
+	.foto{
+		background-image: url(../media/perfil_collar.jpg);
+		background-size: cover;
+		background-position: top;
+		min-height: 500px;
+	}
+}
+
+/**Asesorias**/
+
+@mixin box {
+	background-size: cover;
+	background-position: center;  
+	min-height: 400px;
+}
+
+.estilo{
+	background-image: url(../media/estilo.jpg);
+	@include box;  
+}
+.cuerpo{
+	background-image: url(../media/cuerpoc.jpg);
+	@include box; 
+}
+.color{
+	background-image: url(../media/colorc.jpg);
+	@include box; 
+}
+.asesoria{
+	background-image: url(../media/asesoriac.jpg);
+	@include box; 
+}
+.armario{
+	background-image: url(../media/armarioc.jpg);
+	@include box; 
+}
+.compras{
+	background-image: url(../media/comprasc.jpg);
+	@include box; 
+}
+.rostro{
+	background-image: url(../media/rostroc.jpg);
+	@include box; 
+}
+.cap{
+	background-image: url(../media/capacitacionc.jpg);
+	@include box; 
+}
+
+/**Testimonios**/
+
+@media (min-width: 992px) {
+    .carousel-item img {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+    }
+}
+
+/**Contacto**/
+
+#formulario {
+    color:$colorDark;
+	form {
+		margin:0 auto;
+		width:400px;
+	}
+	label {
+		display:block;
+		margin-top:20px;
+		letter-spacing:1px;
+	} 
+	input, textarea {
+		width:380px;
+		height:27px;
+		background:#373737;
+		border:2px solid #F4F4F4;
+		padding:10px;
+		margin-top:5px;
+		font-size:10px;
+		color:$colorNude;	
+	} 
+	textarea {
+    	height:150px;
+		resize: none;
+	}
+}
+ 
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+/**Footer**/
+
+#footer{
+  padding: 60px;
+  font-size: 20px;
+  color: $colorNude;
+  border-top: 1px solid;
+}
